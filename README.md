@@ -11,3 +11,5 @@ se rellana con 'Host no registrado en la base de datos'.
 Se puede cambiar el valor de scan_name en requests_api para que se haga la requests sobre otros escaners del tenable.
 
 Posible mejora: añadir una entrada a la base de datos con los Hosts nuevos
+
+
