@@ -137,7 +137,7 @@ def main():
 
     writer = ExcelWriter(scan_name.replace(":", "") + '_hostsactivos' + '.xlsx')
 
-    if scan_name == 'Publicas TID F5: 195.235.92.128-255':
+    if scan_name == '<scan_name>':
         df = df.assign(Responsable=lista_responsables)
         df = df.style.applymap(color_hostnoregistrado)
         df.to_excel(writer, 'Hosts Activos', index=False)
